@@ -1,0 +1,37 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 24px;
+    background: linear-gradient(to right,  #005476, #76b7d3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+a {
+    text-decoration: none;
+    padding: 24px;
+    color: black; 
+}
+
+a:hover {
+    color: #005476;
+}
+
