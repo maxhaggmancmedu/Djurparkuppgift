@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    width: 100%;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.left-side-grid,
+.right-side-grid {
+    background-color: black;
+}
+
+.left-side-grid {
+    grid-column: 1;
+}
+
+.middle-grid {
+    grid-column: 2;
+}
+
+.right-side-grid {
+    grid-column: 3;
+}
