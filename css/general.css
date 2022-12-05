@@ -38,3 +38,19 @@ a:hover {
     color: #005476;
 }
 
+.left-side-grid,
+.right-side-grid {
+    background-color: black;
+}
+
+.left-side-grid {
+    grid-column: 1;
+}
+
+.middle-grid {
+    grid-column: 2;
+}
+
+.right-side-grid {
+    grid-column: 3;
+}
