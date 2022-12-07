@@ -38,12 +38,9 @@ a:hover {
     color: #005476;
 }
 
-.left-side-grid {
-    background-color: white;
-}
-
-.left-side-grid {
+.sidebar {
     grid-column: 1;
+    background-color: white;
 }
 
 .middle-grid {
