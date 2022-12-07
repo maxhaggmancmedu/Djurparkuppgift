@@ -5,9 +5,12 @@ html {
 body {
     height: 100%;
     margin: 0;
+    width: 100%;
+}
+
+main {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    width: 100%;
 }
 
 * {
