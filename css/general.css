@@ -6,7 +6,7 @@ body {
     height: 100%;
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-columns: 1fr 6fr;
     width: 100%;
 }
 
@@ -38,8 +38,7 @@ a:hover {
     color: #005476;
 }
 
-.left-side-grid,
-.right-side-grid {
+.left-side-grid {
     background-color: white;
 }
 
@@ -51,6 +50,4 @@ a:hover {
     grid-column: 2;
 }
 
-.right-side-grid {
-    grid-column: 3;
-}
+
