@@ -5,6 +5,9 @@ html {
 body {
     height: 100%;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 100%;
 }
 
 * {
@@ -34,4 +37,17 @@ a {
 a:hover {
     color: #005476;
 }
+
+.left-side-grid {
+    background-color: white;
+}
+
+.left-side-grid {
+    grid-column: 1;
+}
+
+.middle-grid {
+    grid-column: 2;
+}
+
 
